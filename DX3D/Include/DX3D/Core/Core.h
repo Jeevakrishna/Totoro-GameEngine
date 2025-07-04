@@ -1,4 +1,6 @@
 #pragma once
+#include <stdexcept>
+#include <memory>
 
 namespace dx3d
 {
@@ -6,4 +8,7 @@ namespace dx3d
 	class Window;
 	class Game;
 
+	class GraphicEngine;
+	class RenderSystem;
+	class Logger;
 }
